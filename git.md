@@ -71,6 +71,7 @@
 ```linux
 1    git push origin master
 2    git push -u origin master （首次）
+3    git push <远程主机名> <本地分支名>:<远程分支名>
 ```
 
 ### 4. 下载文件
@@ -96,5 +97,6 @@
 > 取回文件
 
 ```linux
-1    git pull origin
+1   git pull origin
+2   git pull origin master --allow-unrelated-histories
 ```
