@@ -18,13 +18,13 @@
 1    git init
 ```
 
-> 创建SSH Key
+> 创建 SSH Key
 
 ```linux
 1    ssh-keygen -t rsa -C '623174818@qq.com'
 ```
 
-> 检查SSH Key
+> 检查 SSH Key
 
 ```linux
 1    ~./ssh ls
@@ -70,7 +70,7 @@
 
 ```linux
 1    git push origin master
-2    git push -u origin master (首次)
+2    git push -u origin master （首次）
 ```
 
 ### 4. 下载文件
@@ -78,10 +78,10 @@
 > 克隆仓库
 
 ```linux
-1    git clone git@github.com:l623174818/*.git (首次)
+1    git clone git@github.com:l623174818/*.git （首次）
 ```
 
-> 拉回远程commit数据
+> 拉回远程 commit 数据
 
 ```linux
 1    git fetch
